@@ -1,1 +1,3 @@
 print("Chathuka")
+
+print("azam")
