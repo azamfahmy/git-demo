@@ -1,0 +1,16 @@
+
+git init 				<- creates a .git folder and initializes the local repository.
+
+file1.txt
+file2.txt 
+
+git add file1.txt    				<- adding the file1.txt to 'stash'
+git add file2.txt 					<- adding the file2.txt to 'stash'
+git add .  							<- adding all changes to 'stash'
+
+git commit -m "Added file" 			<- creates a new commit with all changes in the stash
+
+
+git push origin master 				<- push all commits to 'master' branch
+
+git pull origin master				<- pull all commits from 'master' branch
